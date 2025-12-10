@@ -4,4 +4,4 @@
 
 local map = LazyVim.safe_keymap_set
 
-map({ "n", "v" }, "<C-l>", '"+y', { desc = "Copy to system clipboard" })
+-- map({ "n", "v" }, "<C-c>", '"+y', { desc = "Copy to system clipboard" })
